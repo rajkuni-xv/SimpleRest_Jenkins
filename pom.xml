@@ -54,19 +54,16 @@
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
-    </plugins>
-  </build>
-  <install>
-  	 <plugin>
-        <groupId>org.jboss.as.plugins</groupId>
-        <artifactId>jboss-as-maven-plugin</artifactId>
-        <version>7.1.1.Final</version>
+      <plugin>
+        <groupId>org.wildfly.plugins</groupId>
+        <artifactId>wildfly-maven-plugin</artifactId>
+        <version>1.1.0.Alpha11</version>
         <configuration>
             <hostname>127.0.0.1</hostname>
-            <port>8085</port>
+            <port>9995</port>
             <username>admin</username>
             <password>admin</password>
-
+			<timeout>30000</timeout>
         </configuration>
         <executions>
             <execution>
@@ -77,6 +74,7 @@
                 </goals>
             </execution>
         </executions>
-    </plugin>
-  </install>
+      </plugin>
+    </plugins>
+  </build>
 </project>
