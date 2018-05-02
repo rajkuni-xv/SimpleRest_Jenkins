@@ -25,7 +25,7 @@ public class HelloWorldService {
 	@Path("/showServerCall")
 	public String showServerCall() {
 		logger.info("Executed the method!");
-		return "<h1>Hello World</h1>";
+		return "<h1>Hello World Again!</h1>";
 	}
  
 }
