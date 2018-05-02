@@ -59,7 +59,7 @@
         <artifactId>wildfly-maven-plugin</artifactId>
         <version>1.1.0.Alpha11</version>
         <configuration>
-            <hostname>${wildfly.host}</hostname>
+            <hostname>${wildfly.hostname}</hostname>
             <port>${wildfly.port}</port>
             <username>${wildfly.username}</username>
             <password>${wildfly.password}</password>
