@@ -59,10 +59,10 @@
         <artifactId>wildfly-maven-plugin</artifactId>
         <version>1.1.0.Alpha11</version>
         <configuration>
-            <hostname>${wildfly.host}</hostname>
-            <port>${wildfly.port}</port>
-            <username>${wildfly.username}</username>
-            <password>${wildfly.password}</password>
+            <hostname>10.2.81.18</hostname>
+            <port>9990</port>
+            <username>cexadmin</username>
+            <password>Ak@conex1</password>
 			<timeout>30000</timeout>
         </configuration>
         <executions>
